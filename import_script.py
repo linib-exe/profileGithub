@@ -9,7 +9,7 @@ application = get_wsgi_application()
 # Import your Django model
 from core.models import Student  # Adjust based on your project structure
 
-json_files_directory = '/home/bisesh/Desktop/github/jsonproject/Profiles'
+json_files_directory = '/home7/ngsaahco/profileGithub/profileGithub/Profiles'
 
 for filename in os.listdir(json_files_directory):
     if filename.endswith(".json"):
